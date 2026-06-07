@@ -84,6 +84,11 @@ app.all('/proxy', async (req, res) => {
             'Connection': 'keep-alive'
         };
 
+        // Forward Range header for DASH byte-range requests!
+        if (req.headers['range']) {
+            finalHeaders['Range'] = req.headers['range'];
+        }
+
         // Apply channel-specific headers
         if (channel && channel.headers) {
             for (const [key, val] of Object.entries(channel.headers)) {
