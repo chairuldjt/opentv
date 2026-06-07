@@ -183,6 +183,7 @@ async function play(channel) {
         } else {
             await player.load(proxy);
         }
+        UI.loader.classList.add('hidden'); // Hide loader immediately after successful stream start
         notify(`Streaming ${channel.name}`, 'success');
     } catch (e) {
         onError(e);
@@ -213,9 +214,32 @@ function playHls(url) {
         hls = new Hls();
         hls.loadSource(url);
         hls.attachMedia(UI.video);
-        hls.on(Hls.Events.MANIFEST_PARSED, () => UI.video.play().catch(() => {}));
+        
+        // HLS loading states
+        hls.on(Hls.Events.FRAG_BUFFERED, () => UI.loader.classList.add('hidden'));
+        hls.on(Hls.Events.ERROR, (event, data) => {
+            if (data.fatal) {
+                switch (data.type) {
+                    case Hls.ErrorTypes.NETWORK_ERROR:
+                        hls.startLoad();
+                        break;
+                    case Hls.ErrorTypes.MEDIA_ERROR:
+                        hls.recoverMediaError();
+                        break;
+                    default:
+                        onError({message: "HLS Fatal Error"});
+                        break;
+                }
+            }
+        });
+
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+            UI.loader.classList.add('hidden');
+            UI.video.play().catch(() => {});
+        });
     } else if (UI.video.canPlayType('application/vnd.apple.mpegurl')) {
         UI.video.src = url;
+        UI.video.addEventListener('loadeddata', () => UI.loader.classList.add('hidden'));
     }
 }
 
