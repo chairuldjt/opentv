@@ -1,0 +1,800 @@
+[
+  {
+    "id": "390",
+    "name": "Animax HD",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiUCtMdXdTaUZKa1ZXeWs0cHFtd01RQSIsImtpZCI6ImJ6Q1NkcWxPUmI2SnFJWUJXVVZ1aEEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/animax_hd_fallback.svg"
+  },
+  {
+    "id": "2830",
+    "name": "ANTV HD",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiNUZzR280elNZYmRNVVdEd2tTd0VMdyIsImtpZCI6IkpSdzRUb1JvUWF1dm9mZkhJOVYrWmcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplustv.id/",
+      "Origin": "https://www.visionplustv.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+    },
+    "image": "/assets/logos/antv_hd_fallback.svg"
+  },
+  {
+    "id": "280",
+    "name": "AXN",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiaThMTi9RNkc5OCtwTmU4Rmw0dmlLUSIsImtpZCI6Ikt3bGNtVWJTUXN1UkNPYWxpYUpnY2cifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "zilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+    },
+    "image": "/assets/logos/axn_fallback.svg"
+  },
+  {
+    "id": "28",
+    "name": "BTV",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h210/01.m3u8",
+    "key": "none",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+    },
+    "image": "/assets/logos/btv_fallback.svg"
+  },
+  {
+    "id": "284",
+    "name": "Celestial Classic",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiRHBMc0dpalZuYWdCWWNOVUhHNjQ2dyIsImtpZCI6ImwwMVBzWlVpVDJhaUp4M29CdVlnR0EifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"
+    },
+    "image": "/assets/logos/celestial_classic_fallback.svg"
+  },
+  {
+    "id": "795",
+    "name": "Celestial Movies",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/fd25e662b7154c60a94f7c061573ba2d/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiVVdabmZYOW5sN3owV2M5OGkyYmN1USIsImtpZCI6IjNrbzROWm03VHNTaVQ0eGg4cm1qdWcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/celestial_movies_fallback.svg"
+  },
+  {
+    "id": "1020",
+    "name": "Cineedge",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/47c895ca72544fcfa4221c499b555a10/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiM2JtWFZlQyt2WmpKTEg2cmwwdnhZUSIsImtpZCI6Ing3T0ZMWnlFUVkrVUtTUGtIREhtTXcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+    },
+    "image": "/assets/logos/cineedge_fallback.svg"
+  },
+  {
+    "id": "27",
+    "name": "CNBC",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8",
+    "key": "none",
+    "headers": {
+      "Referer": "https://www.cnnindonesia.com/",
+      "Origin": "https://www.cnnindonesia.com",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0"
+    },
+    "image": "/assets/logos/cnbc_fallback.svg"
+  },
+  {
+    "id": "26",
+    "name": "CNN",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
+    "key": "none",
+    "headers": {
+      "Referer": "https://www.cnnindonesia.com/",
+      "Origin": "https://www.cnnindonesia.com",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0"
+    },
+    "image": "/assets/logos/cnn_fallback.svg"
+  },
+  {
+    "id": "455",
+    "name": "G.T.V",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiVEcrYkZkK3JLaGFiSzNpa21NVFhmUSIsImtpZCI6IkEyNkYzZ3UwU082eUhUbXJNQTJramcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplustv.id/",
+      "Origin": "https://www.visionplustv.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+    },
+    "image": "/assets/logos/g_t_v_fallback.svg"
+  },
+  {
+    "id": "292",
+    "name": "Galaxy Premium",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://live-channel4-cdn.visionplus.id/out/v1/45c0752c6b6b4397b80243ac9fed96fd/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiTURCRk03VUFpdGZ6UENYeUpWQnJ3QSIsImtpZCI6IkRaVTUyeVFBVGFtc051cEpvSjRsWEEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+    },
+    "image": "/assets/logos/galaxy_premium_fallback.svg"
+  },
+  {
+    "id": "291",
+    "name": "Galaxy TV",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://fta4-cdn-flr.visionplus.id/out/v1/751a0982779f4edd904205eb351e220d/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiemxmSlNRdlhjck9RMTR1ZjdhK05OZyIsImtpZCI6Ino3cmxsNVVFUldPMXViU1Nlbm1uYmcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/galaxy_tv_fallback.svg"
+  },
+  {
+    "id": "65",
+    "name": "Garuda TV",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8",
+    "key": "none",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/garuda_tv_fallback.svg"
+  },
+  {
+    "id": "956",
+    "name": "HBO",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://cdnbal1.indihometv.com/atm/DASH/hbo/manifest.mpd",
+    "key": "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b",
+    "headers": {
+      "Referer": "https://maxstream.tv/",
+      "Origin": "https://maxstream.tv/",
+      "User-Agent": "IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/hbo_fallback.svg"
+  },
+  {
+    "id": "957",
+    "name": "HBO Cinemax",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://cdnbal1.indihometv.com/atm/DASH/cinemax/manifest.mpd",
+    "key": "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b",
+    "headers": {
+      "Referer": "https://maxstream.tv/",
+      "Origin": "https://maxstream.tv/",
+      "User-Agent": "IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/hbo_cinemax_fallback.svg"
+  },
+  {
+    "id": "955",
+    "name": "HBO Family",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://cdnbal1.indihometv.com/atm/DASH/hbofamily/manifest.mpd",
+    "key": "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b",
+    "headers": {
+      "Referer": "https://maxstream.tv/",
+      "Origin": "https://maxstream.tv/",
+      "User-Agent": "IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/hbo_family_fallback.svg"
+  },
+  {
+    "id": "179",
+    "name": "HBO Hits",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://cdnbal1.indihometv.com/atm/DASH/hbohits/manifest.mpd",
+    "key": "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b",
+    "headers": {
+      "Referer": "https://maxstream.tv/",
+      "Origin": "https://maxstream.tv/",
+      "User-Agent": "IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/hbo_hits_fallback.svg"
+  },
+  {
+    "id": "958",
+    "name": "HBO Signature",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://cdnbal1.indihometv.com/atm/DASH/hbosignature/manifest.mpd",
+    "key": "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b",
+    "headers": {
+      "Referer": "https://maxstream.tv/",
+      "Origin": "https://maxstream.tv/",
+      "User-Agent": "IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/hbo_signature_fallback.svg"
+  },
+  {
+    "id": "2917",
+    "name": "IDX Channel",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://atemecdnbalancer-voe.sysln.id/live/eds/IDXChannelHD/mediampd/IDXChannelHD.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoicjFaZmRnQmtXVXgxVlJYTGEwdHZHZyIsImtpZCI6Ikh4S2cvaEVDU0thQkg2K0tEZDhaeGcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://atemeshield1-voe.sysln.id/",
+      "Origin": "https://atemeshield1-voe.sysln.id",
+      "User-Agent": "ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1"
+    },
+    "image": "/assets/logos/idx_channel_fallback.svg"
+  },
+  {
+    "id": "463",
+    "name": "IMC Premium",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://fta3-cdn-flr.visionplus.id/out/v1/65432a4c12ca4a52abf473a0e41d7c7e/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiUDVHVjNFYU5NM0wybkd2c1cvcDF1dyIsImtpZCI6Im9FeHo2VjdyUVIycnk2akRXbHBZNkEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+    },
+    "image": "/assets/logos/imc_premium_fallback.svg"
+  },
+  {
+    "id": "666",
+    "name": "Indosiar",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoieC9VcDNzeS9ad25qNWx4aHlORTBUdyIsImtpZCI6InF4L3BuazVQVEw2Vmt3c3hWTUg3R1EifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplustv.id/",
+      "Origin": "https://www.visionplustv.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+    },
+    "image": "/assets/logos/indosiar_fallback.svg"
+  },
+  {
+    "id": "3834",
+    "name": "Jakarta Globe",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://atemecdnbalancer-voe.sysln.id/live/eds/JakartaGlobeHD/mediampd/JakartaGlobeHD.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoic2VZNzM5VG9uOFF1cEJZMXF5dkRxUSIsImtpZCI6IlA3OE5VTVNLUnIrL0tIY1ZLVzhYNVEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.firstmedia.com/",
+      "Origin": "https://www.firstmedia.com",
+      "User-Agent": "ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1"
+    },
+    "image": "/assets/logos/jakarta_globe_fallback.svg"
+  },
+  {
+    "id": "18",
+    "name": "KompasTV",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "http://op-group1-swiftservehd-1.dens.tv/h/h234/02.m3u8",
+    "key": "66744f2f3e774c339c4f812dc37737d8:814398c6cb279eed14f1134d0ea31266",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1"
+    },
+    "image": "/assets/logos/kompastv_fallback.svg"
+  },
+  {
+    "id": "2831",
+    "name": "MD.tv",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/3aefa03d32954b678e5faab6daa04b58/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiV0lvaUZMKzVIOEFWQzVyQ3AwWE8rQSIsImtpZCI6ImtkN0cvWi9ZUzRlYXJNQW52MU1ua0EifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/md_tv_fallback.svg"
+  },
+  {
+    "id": "14",
+    "name": "MetroTV",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "http://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8",
+    "key": "66744f2f3e774c339c4f812dc37737d8:814398c6cb279eed14f1134d0ea31266",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1"
+    },
+    "image": "/assets/logos/metrotv_fallback.svg"
+  },
+  {
+    "id": "171",
+    "name": "MNCTV",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiMi8zQWxuejd2dEFkdW5NTW1kbkJTZyIsImtpZCI6Ind3QkZaVFphUXRDT085NDVwUmJXVGcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplustv.id/",
+      "Origin": "https://www.visionplustv.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+    },
+    "image": "/assets/logos/mnctv_fallback.svg"
+  },
+  {
+    "id": "1111",
+    "name": "mOji Digital TV",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8",
+    "key": "http://xtv.ooo:8080/0966717777/0966717777/350997",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+    },
+    "image": "/assets/logos/moji_digital_tv_fallback.svg"
+  },
+  {
+    "id": "724",
+    "name": "Music TV",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiQjNUenJtNmpMNXRNSklsdkg3VzdRQSIsImtpZCI6IlZkaS9ZUTR4UWtDT3o2VXBYWDY2T1EifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/music_tv_fallback.svg"
+  },
+  {
+    "id": "3214",
+    "name": "Premium Movies",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiME1kaU44WHVPT2VrSU9uSU15TUNQZyIsImtpZCI6IldtWm84NlhXUXppODRUTUg1Y1Z3dmcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/premium_movies_fallback.svg"
+  },
+  {
+    "id": "172",
+    "name": "R.C.T.I",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiTkFSNUxMVElCSkFxemNiS1pjR2ltQSIsImtpZCI6IjA0WUFFaFZaUUVPb21WMjNscTJlbkEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplustv.id/",
+      "Origin": "https://www.visionplustv.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+    },
+    "image": "/assets/logos/r_c_t_i_fallback.svg"
+  },
+  {
+    "id": "95",
+    "name": "Rock Action",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/010bb28c19b64975b318d3b00f58b18b/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoia2c4YTNNcGdCcHlJZmFmeDBpVmdmUSIsImtpZCI6IjFCSnZmOVlUU3QrKzJ6b05ydjEyVncifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+    },
+    "image": "/assets/logos/rock_action_fallback.svg"
+  },
+  {
+    "id": "75",
+    "name": "Rock Entertainment",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/4cae4723d4d54a7fb71020bd7939a202/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiMWlNQ1ZEQjFSajVITGlQWDZVZnhDdyIsImtpZCI6InBFelZHMmlLUlkyWDlUVENodVdDUXcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+    },
+    "image": "/assets/logos/rock_entertainment_fallback.svg"
+  },
+  {
+    "id": "110",
+    "name": "Rodja.tv",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "https://rodjatv.com/rodjatv/live.m3u8",
+    "key": "none",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "none"
+    },
+    "image": "/assets/logos/rodja_tv_fallback.svg"
+  },
+  {
+    "id": "21",
+    "name": "RTV",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8",
+    "key": "87484c0b2a4c41b9b08249ef7817ad7f:ff4f3f232f747e5e7f616b4741fa5c32",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+    },
+    "image": "/assets/logos/rtv_fallback.svg"
+  },
+  {
+    "id": "871",
+    "name": "SCTV",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiRVc1QUZLWmkvdlRxWFhaeDNWRWcyQSIsImtpZCI6Ims5VzUrZFhSVHhXeHVwV0M4ekxSL0EifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/sctv_fallback.svg"
+  },
+  {
+    "id": "986",
+    "name": "Sindo News",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://cdnbal1.indihometv.com/atm/DASH/mncnews/manifest.mpd",
+    "key": "26cc3e3343858d3986322f16e10b5823:0ad735e707e1c79bc550efa49f2ea4bd",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/sindo_news_fallback.svg"
+  },
+  {
+    "id": "376",
+    "name": "Thrill.TV",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/3c619ecc120b46e999d1eaa627cc544f/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiYm9LSFpIVGZBbHc1cm9CTHB6ai9GdyIsImtpZCI6IlAvcXpSeHFaUlRXOTkveG1ONUx3aXcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+    },
+    "image": "/assets/logos/thrill_tv_fallback.svg"
+  },
+  {
+    "id": "11",
+    "name": "Trans7",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8",
+    "key": "https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8",
+    "headers": {
+      "Referer": "https://20.detik.com/",
+      "Origin": "https://20.detik.com",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+    },
+    "image": "/assets/logos/trans7_fallback.svg"
+  },
+  {
+    "id": "3822",
+    "name": "TransTV HD",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiRGVHQm1ldXpNVzQ2N1lVcDQ1VkN0dyIsImtpZCI6ImRrNXlhaU5LUTF5SHFDNUtIYWFtbXcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/transtv_hd_fallback.svg"
+  },
+  {
+    "id": "155",
+    "name": "TV9 Nusantara",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "http://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8",
+    "key": "none",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "none"
+    },
+    "image": "/assets/logos/tv9_nusantara_fallback.svg"
+  },
+  {
+    "id": "287",
+    "name": "tVN Movies",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/096d5cf064294e7ea3a7f59ee2899669/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiSFF2WlRxdGRYMWFwVUxlRTJUUlVPUSIsImtpZCI6IkYvdFdQSGhJU1BDZGloNm9paStwaVEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+    },
+    "image": "/assets/logos/tvn_movies_fallback.svg"
+  },
+  {
+    "id": "286",
+    "name": "tVN Premium",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/6dc5412d26ea4e65961c825d866f2a34/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiei9NM2QzZC9mbUVIaXVLdVFlMEdOZyIsImtpZCI6IkxveTliMlpMU3M2V2JUN2ZyWlRCamcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+    },
+    "image": "/assets/logos/tvn_premium_fallback.svg"
+  },
+  {
+    "id": "12",
+    "name": "tvOne",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "http://op-group1-swiftservehd-1.dens.tv/h/h40/01.m3u8",
+    "key": "none",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "none"
+    },
+    "image": "/assets/logos/tvone_fallback.svg"
+  },
+  {
+    "id": "17",
+    "name": "TVRI Nasional",
+    "group": "Indonesia",
+    "type": "hls",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+    "key": "none",
+    "headers": {
+      "Referer": "https://klik.tvri.go.id/",
+      "Origin": "https://klik.tvri.go.id/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0"
+    },
+    "image": "/assets/logos/tvri_nasional_fallback.svg"
+  },
+  {
+    "id": "3836",
+    "name": "Uniquest (V+)",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiME1kaU44WHVPT2VrSU9uSU15TUNQZyIsImtpZCI6IldtWm84NlhXUXppODRUTUg1Y1Z3dmcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+    },
+    "image": "/assets/logos/uniquest__v___fallback.svg"
+  },
+  {
+    "id": "2904",
+    "name": "Vision Prime HD",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiY1pXWTlUeVpqR0dLMzNhbzlQRi8wUSIsImtpZCI6IlNEeHgzVGI5UmQyV1V5SG94V2k2UWcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+    },
+    "image": "/assets/logos/vision_prime_hd_fallback.svg"
+  },
+  {
+    "id": "797",
+    "name": "Zee Bioskop",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoibWFZaVZwR3FacDhQSW1kN1JUWndYZyIsImtpZCI6Ik9ZN3hUc2NCU3RpdWRVRktmdjBxRHcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://www.visionplus.id/",
+      "Origin": "https://www.visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+    },
+    "image": "/assets/logos/zee_bioskop_fallback.svg"
+  },
+  {
+    "id": "4186",
+    "name": "Volleyball: VNL Women [CH8]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiM1QrV3FVeVFuYVNQOUF5U3FyK004dyIsImtpZCI6ImtBbTNHSjQrYU13SjBYZ1I4cjYxV2cifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0"
+    },
+    "image": "/assets/logos/volleyball__vnl_women__ch8__fallback.svg"
+  },
+  {
+    "id": "4172",
+    "name": "UEFA European U17 Championship [CH1]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://a151aivottlinear-a.akamaihd.net/OTTB/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiS0Y4U25GN0tBZDBJcGRXaFN0Z0J5QSIsImtpZCI6IkN0UUlETi80eGdzU003SWdoL0N6UUEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://dce-ac-live.cdn.indazn.com/",
+      "Origin": "https://dce-ac-live.cdn.indazn.com",
+      "User-Agent": "Roku/DVP-12.0"
+    },
+    "image": "/assets/logos/uefa_european_u17_championship__ch1__fallback.svg"
+  },
+  {
+    "id": "4188",
+    "name": "Volleyball: VNL Women [CH10]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiM1QrV3FVeVFuYVNQOUF5U3FyK004dyIsImtpZCI6ImtBbTNHSjQrYU13SjBYZ1I4cjYxV2cifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0"
+    },
+    "image": "/assets/logos/volleyball__vnl_women__ch10__fallback.svg"
+  },
+  {
+    "id": "4101",
+    "name": "International Friendly [CH11]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://abkv2pxaaaaaaaamms3xu2tu2eynb.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoibU0vNVlBbVYramdjZHYyczg4ZnRyZyIsImtpZCI6IkNVVTg2Q0RXWDd4blhlTVlYNTVGVEEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://cricrex.live/",
+      "Origin": "https://cricrex.live",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0"
+    },
+    "image": "/assets/logos/international_friendly__ch11__fallback.svg"
+  },
+  {
+    "id": "3073",
+    "name": "Pro Futsal League Puteri [CH2]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiWnpkN2pVS1dBL2kvTU1GaHZhSnA1USIsImtpZCI6IlFEVXlPbi9tUjJlcmp6TkY3WnVUdmcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/pro_futsal_league_puteri__ch2__fallback.svg"
+  },
+  {
+    "id": "3163",
+    "name": "Pro Futsal League Puteri [CH1]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiWnpkN2pVS1dBL2kvTU1GaHZhSnA1USIsImtpZCI6IlFEVXlPbi9tUjJlcmp6TkY3WnVUdmcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/pro_futsal_league_puteri__ch1__fallback.svg"
+  },
+  {
+    "id": "3999",
+    "name": "Pro Futsal League Puteri [CH3]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiWnpkN2pVS1dBL2kvTU1GaHZhSnA1USIsImtpZCI6IlFEVXlPbi9tUjJlcmp6TkY3WnVUdmcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/pro_futsal_league_puteri__ch3__fallback.svg"
+  },
+  {
+    "id": "4000",
+    "name": "Pro Futsal League Puteri [CH4]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiWnpkN2pVS1dBL2kvTU1GaHZhSnA1USIsImtpZCI6IlFEVXlPbi9tUjJlcmp6TkY3WnVUdmcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://visionplus.id/",
+      "Origin": "https://visionplus.id",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    },
+    "image": "/assets/logos/pro_futsal_league_puteri__ch4__fallback.svg"
+  },
+  {
+    "id": "4098",
+    "name": "International Friendly [CH8]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoiUzRCeVRRNzRhOHNzSWZlWm5XZHpuUSIsImtpZCI6IkVTSXpSRlZtZDRpWkFCRWlNMFJWWmcifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "none",
+      "Origin": "none",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"
+    },
+    "image": "/assets/logos/international_friendly__ch8__fallback.svg"
+  },
+  {
+    "id": "4124",
+    "name": "International Friendly [CH22]",
+    "group": "Indonesia",
+    "type": "dash",
+    "url": "https://abkv2pxaaaaaaaamms3xu2tu2eynb.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+    "key": "eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoibU0vNVlBbVYramdjZHYyczg4ZnRyZyIsImtpZCI6IkNVVTg2Q0RXWDd4blhlTVlYNTVGVEEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ==",
+    "headers": {
+      "Referer": "https://cricrex.live/",
+      "Origin": "https://cricrex.live",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0"
+    },
+    "image": "/assets/logos/international_friendly__ch22__fallback.svg"
+  }
+]

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    
+    <!-- PWA & Mobile Native Meta -->
+    <meta name="theme-color" content="#050505">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="OpenTV">
+    <link rel="manifest" href="/manifest.json">
+
+    <title>OpenTV | Minimal IPTV</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: '#ffffff',
+                        surface: {
+                            50: '#fafafa',
+                            100: '#f5f5f5',
+                            200: '#e5e5e5',
+                            800: '#171717',
+                            850: '#111111',
+                            900: '#0a0a0a',
+                            950: '#050505'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Shaka Player -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/controls.min.css">
+    
+    <!-- HLS.js -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+    <!-- Dash.js fallback -->
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+    
+    <style type="text/tailwindcss">
+        body {
+            @apply bg-surface-950 text-neutral-200 antialiased;
+        }
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #171717;
+            border-radius: 9999px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #404040;
+        }
+        
+        .input-minimal {
+            @apply bg-surface-900 border border-neutral-800 rounded-lg px-4 py-2 text-sm outline-none focus:border-neutral-600 transition-all;
+        }
+        .card-minimal {
+            @apply bg-surface-900 border border-neutral-800 rounded-xl overflow-hidden transition-all duration-200;
+        }
+        .shaka-video-container {
+            @apply rounded-none lg:rounded-2xl overflow-hidden bg-black shadow-2xl;
+        }
+        .safe-bottom {
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+
+        .channel-active {
+            @apply bg-surface-850 border-l-4 border-white pl-2 text-white font-medium shadow-md;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        @media (max-width: 1023px) and (orientation: landscape) {
+            nav, aside, #channel-info {
+                display: none !important;
+            }
+            main {
+                padding: 0 !important;
+            }
+            #player-wrapper {
+                position: fixed !important;
+                inset: 0 !important;
+                width: 100vw !important;
+                height: 100vh !important;
+                z-index: 9999 !important;
+                border-radius: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body class="h-screen flex flex-col overflow-hidden">
+
+    <!-- Navbar -->
+    <nav class="h-14 border-b border-neutral-900 flex items-center justify-between px-6 shrink-0 z-50 bg-surface-950">
+        <div class="flex items-center gap-4">
+            <span class="text-sm font-bold tracking-tighter uppercase">Open<span class="text-neutral-500 font-medium">TV</span></span>
+        </div>
+        
+        <div class="flex items-center gap-6">
+            <div class="flex items-center gap-2 text-[10px] font-bold text-neutral-500 tracking-widest uppercase">
+                <span class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
+                Live
+            </div>
+            <div id="current-time" class="text-xs font-medium text-neutral-400">00:00</div>
+        </div>
+    </nav>
+
+    <div class="flex-1 flex flex-col lg:flex-row overflow-hidden relative">
+        <!-- Player Panel (Order 1 on mobile, 2 on desktop) -->
+        <main class="w-full lg:flex-1 shrink-0 lg:shrink flex flex-col overflow-visible lg:overflow-y-auto bg-black lg:bg-surface-950 lg:p-6 order-1 lg:order-2">
+            <div class="w-full max-w-5xl mx-auto space-y-4 lg:space-y-6">
+                <!-- Video Container -->
+                <div id="player-wrapper" class="relative group aspect-video shrink-0 bg-black lg:rounded-2xl overflow-hidden shadow-2xl">
+                    <div class="shaka-video-container w-full h-full">
+                        <video id="video" class="w-full h-full" poster="" autoplay controls></video>
+                        
+                        <!-- Status Overlays -->
+                        <div id="loading-overlay" class="hidden absolute inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm z-10">
+                            <div class="w-8 h-8 border-2 border-neutral-800 border-t-white rounded-full animate-spin"></div>
+                        </div>
+
+                        <div id="error-msg" class="hidden absolute inset-0 flex flex-col items-center justify-center bg-neutral-950 p-8 text-center z-20">
+                            <i data-lucide="alert-circle" class="w-10 h-10 text-neutral-600 mb-4"></i>
+                            <h2 class="text-sm font-bold mb-1 uppercase tracking-tight">Stream Unavailable</h2>
+                            <p id="error-text" class="text-xs text-neutral-500 mb-6 max-w-xs leading-relaxed">The source might be down or requires a different player configuration.</p>
+                            <button onclick="window.location.reload()" class="px-5 py-2 bg-neutral-100 text-black text-xs font-bold rounded-md hover:bg-white transition-colors">Reload Player</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Channel Info -->
+                <div id="channel-info" class="px-4 lg:px-0">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 py-2">
+                        <div class="space-y-1">
+                            <div id="current-channel-group" class="text-[10px] font-bold text-neutral-500 uppercase tracking-[0.2em]">General</div>
+                            <h1 id="current-channel-name" class="text-lg lg:text-3xl font-semibold tracking-tight">Welcome</h1>
+                        </div>
+
+                        <div class="flex items-center gap-2">
+                            <button id="fullscreen-btn" class="flex items-center gap-2 px-4 py-2 rounded-lg border border-neutral-800 hover:bg-neutral-900 transition-colors text-xs font-medium">
+                                <i data-lucide="maximize" class="w-4 h-4"></i>
+                                Fullscreen
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="h-px bg-neutral-900 w-full my-4"></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Sidebar (Order 2 on mobile, 1 on desktop) -->
+        <aside id="sidebar" class="w-full lg:w-80 shrink-0 bg-surface-950 border-t lg:border-t-0 lg:border-r border-neutral-900 flex flex-col order-2 lg:order-1 overflow-hidden flex-1 lg:h-full min-h-0">
+            <div class="p-4 shrink-0 space-y-3">
+                <div class="relative">
+                    <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-600"></i>
+                    <input type="text" id="search-input" class="w-full input-minimal pl-10" placeholder="Search channels...">
+                </div>
+
+                <!-- Category pills container -->
+                <div id="category-container" class="flex gap-2 overflow-x-auto no-scrollbar py-1 scroll-smooth">
+                    <!-- Dynamic categories -->
+                </div>
+            </div>
+
+            <div id="channel-list" class="flex-1 overflow-y-auto px-2 pb-6 safe-bottom space-y-1">
+                <!-- Skeletons -->
+                <div class="p-2 space-y-2 animate-pulse">
+                    <div class="h-12 bg-neutral-900 rounded-lg"></div>
+                    <div class="h-12 bg-neutral-900 rounded-lg"></div>
+                    <div class="h-12 bg-neutral-900 rounded-lg"></div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast-container" class="fixed bottom-8 left-1/2 -translate-x-1/2 z-[100] flex flex-col gap-2 pointer-events-none w-full max-w-xs"></div>
+
+    <script src="/app.js"></script>
+    <script>
+        lucide.createIcons();
+        setInterval(() => {
+            const now = new Date();
+            document.getElementById('current-time').textContent = now.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit' });
+        }, 1000);
+    </script>
+</body>
+</html>
