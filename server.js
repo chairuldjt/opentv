@@ -175,7 +175,8 @@ app.all('/proxy', async (req, res) => {
             }
             res.send(content);
         } else {
-            res.send(Buffer.from(response.data));
+            // Send binary buffer directly for DASH segments (.m4s, .mp4, etc)
+            res.end(Buffer.from(response.data));
         }
     } catch (error) {
         console.error(`[FAIL] ${targetUrl} - ${error.message}`);
