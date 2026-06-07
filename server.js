@@ -102,7 +102,7 @@ app.all('/proxy', async (req, res) => {
             finalHeaders['Host'] = parsedUrl.hostname;
         }
 
-        const responseType = (isM3u8 || isManifest) ? 'text' : 'stream';
+        const responseType = (isM3u8 || isManifest) ? 'text' : 'arraybuffer';
         let response = await axios({
             method: req.method,
             url: finalUrl,
@@ -135,6 +135,12 @@ app.all('/proxy', async (req, res) => {
 
         res.status(response.status);
         res.setHeader('Access-Control-Allow-Origin', '*');
+        
+        // Ensure proper CORS headers for preflight and standard requests
+        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, HEAD');
+        res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Range');
+        res.setHeader('Access-Control-Expose-Headers', 'Content-Length, Content-Range');
+
         if (isM3u8) {
             res.setHeader('Content-Type', 'application/vnd.apple.mpegurl; charset=utf-8');
         } else {
@@ -159,6 +165,7 @@ app.all('/proxy', async (req, res) => {
                     return line;
                 }).join('\n');
             } else if (isOk && isManifest && (looksLikeMpd || contentType.includes('dash+xml'))) {
+                // Do not inject BaseURL if it's already there to prevent duplicate BaseURLs
                 const upstreamBase = targetUrl.substring(0, targetUrl.lastIndexOf('/') + 1);
                 if (content.includes('<BaseURL>')) {
                     content = content.replace(/<BaseURL>[^<]+<\/BaseURL>/g, `<BaseURL>${upstreamBase}</BaseURL>`);
@@ -168,7 +175,7 @@ app.all('/proxy', async (req, res) => {
             }
             res.send(content);
         } else {
-            response.data.pipe(res);
+            res.send(Buffer.from(response.data));
         }
     } catch (error) {
         console.error(`[FAIL] ${targetUrl} - ${error.message}`);
