@@ -161,6 +161,13 @@ function renderChannels(channels) {
 
 async function play(channel) {
     if (activeChannelId === channel.id) return;
+
+    // DRM SECURE CONTEXT CHECK
+    if ((channel.type === 'dash' || channel.type === 'dash-clearkey') && channel.key && !window.isSecureContext) {
+        onError({ message: "Saluran ini dikunci (DRM) dan mewajibkan koneksi HTTPS atau Localhost." });
+        return;
+    }
+
     activeChannelId = channel.id;
 
     // UI Updates
