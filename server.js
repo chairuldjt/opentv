@@ -144,8 +144,13 @@ app.all('/proxy', async (req, res) => {
         // Ensure proper CORS headers for preflight and standard requests
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, HEAD');
         res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Range');
-        res.setHeader('Access-Control-Expose-Headers', 'Content-Length, Content-Range');
+        res.setHeader('Access-Control-Expose-Headers', 'Content-Length, Content-Range, Accept-Ranges, Date, ETag, Cache-Control');
 
+        // Forward vital media playback headers from upstream!
+        if (response.headers['content-length']) res.setHeader('Content-Length', response.headers['content-length']);
+        if (response.headers['content-range']) res.setHeader('Content-Range', response.headers['content-range']);
+        if (response.headers['accept-ranges']) res.setHeader('Accept-Ranges', response.headers['accept-ranges']);
+        
         if (isM3u8) {
             res.setHeader('Content-Type', 'application/vnd.apple.mpegurl; charset=utf-8');
         } else {
