@@ -9,7 +9,7 @@ const { URL } = require('url');
 const axios = require('axios');
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 9999;
 
 app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));

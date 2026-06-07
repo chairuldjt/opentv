@@ -61,10 +61,10 @@ Sebelum memulai, pastikan Anda telah menginstal:
    ```bash
    npm start
    ```
-   *(Server akan berjalan di `http://localhost:8080`)*
+   *(Server akan berjalan di `http://localhost:9999`)*
 
 5. **Akses Aplikasi:**
-   Buka browser Anda (Chrome/Safari) dan kunjungi [http://localhost:8080](http://localhost:8080).
+   Buka browser Anda (Chrome/Safari) dan kunjungi [http://localhost:9999](http://localhost:9999).
 
 ---
 
